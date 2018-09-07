@@ -1,5 +1,7 @@
 package cap.action;
+
 import cap.bean.Admin;
+import com.opensymphony.xwork2.ActionSupport;
 
 public class LoginAction extends ActionSupport {
     private Admin admin;
